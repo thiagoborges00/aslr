@@ -1,4 +1,16 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, EmailStr
+
 
 class Message(BaseModel):
-    message : str
+    message: str
+
+
+class UserResponse(BaseModel):
+    username: str
+    email: str
+
+
+class UserSchema(BaseModel):
+    username: str
+    password: str
+    email: EmailStr
