@@ -14,3 +14,7 @@ class UserSchema(BaseModel):
     username: str
     password: str
     email: EmailStr
+
+
+class UserList(BaseModel):
+    users: list[UserResponse]
