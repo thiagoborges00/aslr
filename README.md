@@ -5,6 +5,8 @@
 ## Status
 
 ## Funcionalidades
+ - adicionar , remover e atualizar usuários
+ 
 
 ## Acesso ao projeto
 
